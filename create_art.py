@@ -6,6 +6,8 @@ import random
 import sys
 from PIL import Image
 from random_art import create_expression, run_expression
+from math import pi, sin, cos
+
 
 
 def generate_monochrome_image(expression, width=300):
